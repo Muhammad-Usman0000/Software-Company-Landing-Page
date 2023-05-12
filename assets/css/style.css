@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    width: 100%;
+    height: max-content;
+    
+
+}
+.header{
+    border: 2px solid #0C288C;
+    background-color: #0C288C;
+   
+}
+
+
+.menu{
+    display: flex;
+    float: right;
+    margin-right: 37px;
+   margin-top: -21px;
+
+}
+.logo{
+    
+    font-size: large;
+    margin:20px;
+
+}
+.headertext{
+    font-size: larger;
+    color: white;
+    margin-left: 60px;
+}
+.downloadbutton{
+    background-color: #00BC9D;
+    padding: 9px;
+    width: 115px;
+    border-radius: 21px;
+    margin-top: -6px;
+    color: white;
+    border-color:#00BC9D ;
+
+}
+
+
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bannertext{
+    color: #00FFD5;
+    text-align: middle;
+    font-size: large;
+}
+.bannerpara{
+    color: wheat;
+        margin-top: 23px;
+    margin-bottom: 40px;
+}
+.bannerbutton{
+    background-color: #0C288C;
+    color: white;
+    padding: 10px;
+    border-color: white;
+    width: 225px;
+}
+.banner-section{
+    margin-left: 60px;
+    margin-top: 50px;
+
+}
+/*......///////////////////////////////////////////////////////////////.................*/
+
+.logo-section{
+
+     border: 3px solid #F4F4F4; 
+    background-color: #F4F4F4;
+    
+    
+    
+    
+}
+.logopara{
+
+    text-align: center;
+    margin-top: 25px;
+    color: gray;
+    margin-bottom: 7px;
+
+}
+.hori-line{
+    
+    width: 14%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+
+}
+.logoimages{
+    display: flex;
+
+    justify-content: space-evenly;
+    margin-top: 56px;
+    padding-bottom: 40px;
+}
+.logoimages img{
+    width: 112px;
+    height: 60px;
+    
+}
+/* ................./////////////////////////////...................... */
+
+.do{
+    /* border: 3px solid palevioletred; */
+   
+    
+}
+.do-para{
+    text-align: center;
+    color: gray;
+    margin-bottom: 7px;
+    margin-top: 25px;
+
+}
+.do-line{
+
+    width: 7%;
+    margin: 0 auto;
+}
+.doing-section{
+/* border: 3px solid gold; */
+display: flex;
+justify-content: space-evenly;
+padding-bottom: 60px;
+}
+
+.doing1{
+    margin-top: 38px;
+    text-align: center;
+
+
+}
+.doing-para{
+     color: gray;
+     line-height: 1.2;
+}
+.doing-logo{
+    /* border: 3px solid green; */
+    /*text-align: center;*/
+    margin-bottom: 20px;
+
+}
+.doing-button{
+    /* border: 3px solid purple; */
+    color: #0C288C;
+    width: 100px;
+    margin-top: 15px;
+    font-size: 15px;
+ 
+}
+/* .....................////////////,,,,,,,,,,, */
+
+.how-section{
+     /*border: 1px solid yellowgreen; */
+    
+    background-color: #0C288C;
+    padding-bottom: 80px;
+}
+.how-para{
+    text-align: center;
+    color: gray;
+    /*margin-top: 100px;*/
+    padding-top: 46px;
+}
+
+.how-line{
+    width: 8%;
+    margin: 0 auto;
+    margin-top: 4px;
+
+}
+.how-heading{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.heading2{
+    display: inline;
+    color: #00FFD5;
+}
+
+/* ............................. */
+.main-how{
+    /* border: 3px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 70px;
+   
+
+}
+ .how-data{
+    /* border: 3px solid purple; */
+    background-color: white;
+  
+ }
+ .month{
+    /* border: 3px solid fuchsia; */
+    font-size: small;
+    display: inline;
+ }
+ 
+ .how-paragraph{
+    display: flex;
+    /* border: 3px solid chocolate; */
+
+    
+    padding: 13px;
+    line-height: 1.2;
+    padding-bottom: 70px;
+    
+ }
+ .how-head{
+    margin-top: 35px;
+    margin-bottom: 10px
+
+ }
+ .pro{
+    margin-top: 20px;
+ }
+   
+ 
+ .how-button{
+    position: relative;
+    /* border: 2px solid red; */
+    width: 150px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    bottom: 44px; 
+
+ }
+
+ /* ......................////////////////////// */
+
+.team-section{
+    border: 3px solid  #F7F7F7;
+    background-color: #F7F7F7;
+        padding-bottom: 45px;
+
+    
+    
+}
+
+ .team-heading{
+    /* border: 3px solid green; */
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+
+ }
+ .team-line{
+    width: 8%;
+    margin: 0 auto;
+    margin-top: 4px;
+    margin-bottom: 30px;
+
+ }
+ /* .................////////// */
+ .team-photos{
+    /* border: red; */
+    /*display: flex;*/
+    /* width: 200px; */
+    /*height: 150px;*/
+    /*justify-content: space-around;*/
+
+ }
+ .photo-section{
+    display: flex;
+    justify-content: space-around;
+ }
+
+
+ .team-photos img{
+    width: 250px;
+ }
+.team-names{
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    color: rgb(60, 60, 194);
+    margin-top: 15px;
+}
+.team-role{
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    color: gray;
+}
+
+/* ............////////////////// */
+
+.making-section{
+    margin-top: 40px;
+}
+
+.love{
+    /* border: 1px solid green; */
+    text-align: center;
+    color: gray;
+
+}
+.love-line{
+    width: 11%;
+    margin: 0 auto;
+    margin-top: 4px;
+
+}
+
+/* ....////////////////////// */
+
+.flagimage{
+    text-align: center;
+    height: 89px;
+    margin-top: 15px;
+}
+
+.team-heading2{
+    /* border: 1px solid red; */
+    text-align: center;
+    
+    
+}
+.team-button{
+    text-align: center;
+    margin-top: 35px;
+   
+}
+.tbtn{
+    padding: 9px;
+    color: gray;
+    margin-bottom: 70px;
+}
+
+/* ,............//////// */
+
+.footer-section{
+  
+    background-color: #0C288C;
+    
+    
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.title{
+    margin-bottom: 20px;
+}
+.footer-data{
+    margin-top: 53px;
+    line-height: 1.6;
+}
+
+
+/*.............................................///////////////*/
+
+/*.........START MEDIA QUERY...................////*/
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    font-size: 8px;
+  }
+
+  .headertext {
+    margin-left: 0px;
+  }
+
+  .menu {
+    margin-right: 0px;
+    margin-top: -10px;
+  }
+
+  nav ul li {
+    margin-left: 8px;
+  }
+
+  .bannertext {
+    font-size: 15px;
+  }
+  .banner-section {
+    margin-left: 10px;
+  }
+  .bannerpara {
+    font-size: 12px;
+  }
+  .bannerpara {
+    margin-top: 12px;
+    margin-bottom: 19px;
+  }
+  .bannerbutton {
+    padding: 10px;
+
+    font-size: 11px;
+  }
+  .logoimages {
+    margin: 0px;
+    display: block;
+  }
+  .logoimages img {
+    padding: 5px;
+  }
+  .doing-section {
+    display: block;
+  }
+  .how-para {
+    margin-top: 38px;
+    padding-top: 20px;
+  }
+  .how-heading {
+    font-size: 10px;
+  }
+  .main-how {
+
+    display: block;
+}
+.team-line {
+    width: 29%;
+}
+    
+  
+.team-section {
+    
+    background-color: #f7f7f7;
+    
+}
+.team-heading {
+    
+    text-align: center;
+    
+    color: gray;
+}
+.team-line {
+    width: 27%;
+}
+.photo-section {
+     display: block; 
+     text-align: center;
+    
+}
+.team-names {
+    
+     margin-top: 0px; 
+}
+.team-photos {
+    
+    padding-bottom: 15px;
+}
+.team-heading2 {
+    
+    font-size: 13px;
+}
+.main-footer {
+    
+     display: block; 
+     text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
